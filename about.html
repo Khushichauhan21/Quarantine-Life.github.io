@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT </title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    KHUSHI CHAUHAN
+                </div>
+            </div>
+
+        </div>
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="profile-image-wrapper">
+                    <img src="images-portfolio-website/aboutpage.jpg" >
+
+                </div>
+                <div class="profile-content-wrapper">
+                    <h1>HELLO I AM KHUSHI CHAUHAN</h1>
+                    <h2> ABOUT THE WEBSITE!</h2>
+                    <p> This website is all about the previous year 2020 COVID-19, not so remerkable but it changes humans life into something else , roller-coaster years with so many ups and downs 
+                        but we make to 2021. 2020 Make humans to live a life of slave of mother nature from wearing mask ,to sanitizing after 2 seconds human came to know about the side-effects of 
+                        their own work.Mother nature taught a lesson full of moral ethics. Humans became more aware and became conscious about the fitness and healthy food to stay healthy and fit to overcome the stress of covid-19.Humans spend quality time with family in the early stage of carona when government permits a curfew situations , people came to know about family assests , we came to know about online world , became familiar with digital world.Everything is provided at our doorsteps.</p>
+                   
+                <br>
+                <h2>
+                    ABOUT ME!
+                </h2>
+                
+                <p>
+                    I am Khushi Chauhan a graduation student of BVOC(WEB-DESIGNING ) course from a very renowned
+                    University of Delhi and i am using this template for my covid-19 journey , hope you like it and enjoyed it.Best wishes for the 2021 may you stay healthy and universe will always be there for you.
+                </p>
+               
+                <br>
+                <h2>
+                    TOOLS I USED!
+                </h2>
+               <ol>
+                   <li>Html-for the index and about page</li>
+                   <li>Css-for the animantion in both about and index pages</li>
+                   <ul><li>Css-grid:portfolio-images</li></ul>
+                   <ul><li>Css-flex:content</li></ul>
+                   <li>Javascript:for the index page hovering effect</li>
+               </ol>
+                
+                
+               
+                </div>
+            </div>
+    
+    </div>
+    </div>
+
+
+
+</body>
+<script>
+    const profileImage = document.querySelectorAll('.profile-image-wrapper')
+    profileImage.forEach(profileimage => {
+        profileimage.addEventListener('mouseover', () => {
+
+            profileimage.childNodes[1].classList.add('img-darken');
+        })
+
+        profileimage.addEventListener('mouseout', () => {
+
+            profileimage.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+
+
+</html>
